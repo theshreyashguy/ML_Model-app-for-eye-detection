@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -23,13 +24,24 @@
         android:layout_marginTop="20dp"
         android:text="capture" />
 
+    <Button
+        android:id="@+id/predict22"
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="predict" />
+
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:hint="ssg"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
         android:textSize="22dp" />
 
 
